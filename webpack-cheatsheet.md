@@ -11,7 +11,7 @@ module.exports = {
     publicPath: '/build/',
     historyApiFallback: true,
     proxy: {
-      '/users': 'http://localhost:3000'
+      '/': 'http://localhost:3000'
     }
   },
   entry: './client/index.js',
