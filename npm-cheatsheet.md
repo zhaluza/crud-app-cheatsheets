@@ -133,7 +133,21 @@ Install all webpack-related packages as _dev dependencies_.
 
 _Note:_ Both Thunk and Saga are used to let Redux perform asynchronous actions. You can choose one or the other, although Thunk is by far the more popular option.
 
+**For Redux Thunk:**
+
 - [**redux-thunk**](https://www.npmjs.com/package/redux-thunk)
+
   - [An in-depth introduction to thunks in Redux](http://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
+
+**For Redux Saga:**
+
 - [**redux-saga**](https://redux-saga.js.org/)
+
   - From the [official site](https://redux-saga.js.org/): "You might've used `redux-thunk` before to handle your data fetching. Contrary to redux thunk, you don't end up in callback hell, you can test your asynchronous flows easily and your actions stay pure."
+
+_These packages may be required for Redux saga to function properly:_
+
+- [**regenerator-runtime**](https://www.npmjs.com/package/regenerator-runtime)
+  - Standalone runtime for [Regenerator](https://github.com/facebook/regenerator)-compiled generator and `async` functions
+- [**core-js**](https://www.npmjs.com/package/core-js)
+  - Modular standard library for JavaScript
