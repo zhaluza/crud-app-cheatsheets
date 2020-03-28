@@ -119,7 +119,7 @@ Install all webpack-related packages as _dev dependencies_.
   - Performs client-side routing without the need to contact the server.
   - Lets you use React Router in a web setting (`react-router-native` is also available for React Native).
   - Read more on the [official site](https://reacttraining.com/react-router/).
-- node-sass
+- [**node-sass**](https://www.npmjs.com/package/node-sass)
   - Natively and automatically compiles .scss files to CSS.
   - Lets you directly use .scss files in React, which is awesome.
 
