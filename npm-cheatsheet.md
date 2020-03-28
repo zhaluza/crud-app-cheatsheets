@@ -13,7 +13,7 @@ _Unless otherwise noted, each package can be installed as such: `npm install NAM
 
 - [Database Setup](#Database-Setup)
   - [PostgreSQL](#PostgreSQL)
-  - [MongoDB](#PostgreSQL)
+  - [MongoDB](#mongodb)
 
 [Front End](#Front-End)
 
